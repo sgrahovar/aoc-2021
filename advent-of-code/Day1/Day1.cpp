@@ -13,9 +13,6 @@
 #include <sstream>
 #include <fstream>
 
-#include <filesystem>
-namespace fs = std::__fs::filesystem;
-
 class Day1{
 private:
     std::vector<int> input1;

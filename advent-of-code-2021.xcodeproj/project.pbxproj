@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2906AE712758B975001F8DE2 /* Day2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906AE702758B975001F8DE2 /* Day2.cpp */; };
 		293EB8D3275769F7006A9815 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 293EB8D2275769F7006A9815 /* main.cpp */; };
 		29541E67275788B50030BEF1 /* Day1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29541E66275788B40030BEF1 /* Day1.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2906AE702758B975001F8DE2 /* Day2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day2.cpp; sourceTree = "<group>"; };
+		2906AE742758BA0D001F8DE2 /* test.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
+		2906AE752758BA0D001F8DE2 /* first.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = first.txt; sourceTree = "<group>"; };
 		293EB8CF275769F7006A9815 /* Advent of code 2021 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Advent of code 2021"; sourceTree = BUILT_PRODUCTS_DIR; };
 		293EB8D2275769F7006A9815 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		29541E66275788B40030BEF1 /* Day1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1.cpp; sourceTree = "<group>"; };
@@ -81,6 +85,9 @@
 		29541E6C2757911F0030BEF1 /* Day2 */ = {
 			isa = PBXGroup;
 			children = (
+				2906AE752758BA0D001F8DE2 /* first.txt */,
+				2906AE742758BA0D001F8DE2 /* test.txt */,
+				2906AE702758B975001F8DE2 /* Day2.cpp */,
 			);
 			path = Day2;
 			sourceTree = "<group>";
@@ -141,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2906AE712758B975001F8DE2 /* Day2.cpp in Sources */,
 				29541E67275788B50030BEF1 /* Day1.cpp in Sources */,
 				293EB8D3275769F7006A9815 /* main.cpp in Sources */,
 			);
