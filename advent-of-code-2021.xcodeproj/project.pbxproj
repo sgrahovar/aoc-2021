@@ -10,6 +10,7 @@
 		2906AE712758B975001F8DE2 /* Day2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2906AE702758B975001F8DE2 /* Day2.cpp */; };
 		293EB8D3275769F7006A9815 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 293EB8D2275769F7006A9815 /* main.cpp */; };
 		29541E67275788B50030BEF1 /* Day1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 29541E66275788B40030BEF1 /* Day1.cpp */; };
+		2993637F275A39EA003F5C3E /* Day3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2993637E275A39EA003F5C3E /* Day3.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,9 @@
 		29541E66275788B40030BEF1 /* Day1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day1.cpp; sourceTree = "<group>"; };
 		29541E6927578AA40030BEF1 /* first.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = first.txt; sourceTree = "<group>"; };
 		29541E6A27578AAE0030BEF1 /* second.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = second.txt; sourceTree = "<group>"; };
+		2993637E275A39EA003F5C3E /* Day3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Day3.cpp; sourceTree = "<group>"; };
+		29936381275A39FD003F5C3E /* first.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = first.txt; sourceTree = "<group>"; };
+		29936382275A39FD003F5C3E /* test.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = test.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 		293EB8D1275769F7006A9815 /* advent-of-code */ = {
 			isa = PBXGroup;
 			children = (
+				2993637D275A39D2003F5C3E /* Day3 */,
 				29541E6C2757911F0030BEF1 /* Day2 */,
 				29541E6527576DB50030BEF1 /* Day1 */,
 				293EB8D2275769F7006A9815 /* main.cpp */,
@@ -90,6 +95,16 @@
 				2906AE702758B975001F8DE2 /* Day2.cpp */,
 			);
 			path = Day2;
+			sourceTree = "<group>";
+		};
+		2993637D275A39D2003F5C3E /* Day3 */ = {
+			isa = PBXGroup;
+			children = (
+				29936381275A39FD003F5C3E /* first.txt */,
+				29936382275A39FD003F5C3E /* test.txt */,
+				2993637E275A39EA003F5C3E /* Day3.cpp */,
+			);
+			path = Day3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +165,7 @@
 			files = (
 				2906AE712758B975001F8DE2 /* Day2.cpp in Sources */,
 				29541E67275788B50030BEF1 /* Day1.cpp in Sources */,
+				2993637F275A39EA003F5C3E /* Day3.cpp in Sources */,
 				293EB8D3275769F7006A9815 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
